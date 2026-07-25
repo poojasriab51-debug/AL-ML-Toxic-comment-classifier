@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual Environment
+toxic_env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Large data files (exceeds GitHub 100MB limit)
+data/*.csv
