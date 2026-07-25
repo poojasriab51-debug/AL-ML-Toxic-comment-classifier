@@ -1,4 +1,9 @@
 # Toxic Comment Detection AI/ML
+https://al-ml-toxic-comment-classifier-9aqluxe8pu5qqsbandv7qg.streamlit.app/
+
+<img width="2554" height="1617" alt="image" src="https://github.com/user-attachments/assets/8c252ce3-ce7b-4e58-92a5-35756100cdd1" />
+
+
 
 A machine learning project to detect and classify toxic comments across multiple categories using deep learning.
 
@@ -14,52 +19,6 @@ A machine learning project to detect and classify toxic comments across multiple
 - **LSTM-based model**: Uses a Bidirectional LSTM neural network for text classification
 - **Interactive web app**: Built with Streamlit for easy testing
 
-## Project Structure
-
-```
-├── app.py                     # Streamlit web application
-├── requirements.txt           # Python dependencies
-├── README.md                  # Project documentation
-├── .gitignore                 # Git ignore rules
-├── data/
-│   ├── train.csv              # Training data
-│   ├── test.csv               # Test data
-│   └── train_cleaned.csv      # Preprocessed training data
-├── models/
-│   ├── toxic_comment_model.keras  # Trained model
-│   └── tokenizer.pkl              # Saved tokenizer
-├── notebooks/
-│   └── Toxicity_Detection.ipynb   # Jupyter notebook with EDA & training
-├── outputs/                   # Output files
-└── src/
-    └── preprocessing.py       # Text preprocessing utilities
-```
-
-## Setup
-
-1. **Clone the repository**
-
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Run the Jupyter Notebook** (optional - to train the model)
-   ```bash
-   jupyter notebook notebooks/Toxicity_Detection.ipynb
-   ```
-
-4. **Run the Streamlit app**
-   ```bash
-   streamlit run app.py
-   ```
-
-## Usage
-
-1. Launch the Streamlit app
-2. Enter a comment in the text area
-3. Click **Analyze Comment**
-4. View predictions across all 6 toxicity categories
 
 ## Tech Stack
 
